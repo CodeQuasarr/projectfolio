@@ -17,7 +17,13 @@ class HomeController extends Controller
         $numero = htmlentities($_POST["phone"]);
         $email = htmlentities($_POST["email"]);
         $msg = ($_POST["message"]);
-        mail('dwayne-12@hotmail.fr', "$nom - $numero ", "email : $email Message : $msg");
-        header('Location:/');
+        mail('dsanyaronke@gmail.com', "$nom - $numero ", "email : $email Message : $msg");
+
+        $_SESSION["alert"] = [
+            "message" => "Votre message est envoyé"
+        ];
+        header('Location:/projectfolio');
+
+        
     }
 }

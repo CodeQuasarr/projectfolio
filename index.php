@@ -4,7 +4,7 @@ use App\Autoload;
 use App\Controllers\AdminController;
 use App\Controllers\HomeController;
 use App\Controllers\LoginController;
-
+session_start();
 require "Autoload.php";
 Autoload::webRun();
 

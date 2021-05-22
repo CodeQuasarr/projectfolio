@@ -159,7 +159,8 @@ h3 {
 }
 
 .card-img-overlay:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.76);
+    font-family: 'Oswald', sans-serif;
 }
 
 .bg-techno {
