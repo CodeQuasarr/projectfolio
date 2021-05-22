@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* devellopeuur en devenir */
+
+header {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: #000000 !important;
+    position: fixed;
+}
+
+.navbar--custom {
+    width: 100%;
+    height: 80vh;
+    padding-right: 150px;
+    position: absolute;
+}
+
+nav a {
+    color: red !important;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+.container-fluid video {
+    position: fixed;
+    z-index: -1;
+    min-width: 100%;
+}
+
+.presentation--card {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.presentation--card_content {
+    padding: 20px;
+}
+
+.presentation--card_content_text,
+h1 {
+    letter-spacing: 1px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 13px !important;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.separator {
+    width: 110px;
+    height: 10px;
+    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.presentation--card_content_label {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv a {
+    height: 100px;
+    width: 100px;
+    color: red;
+    border: 5px solid red;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.cv a:hover {
+    height: 110px;
+    width: 110px;
+    color: #fff;
+    border: 5px solid #fff;
+    transition: all .5s ease;
+}
+
+.portfolio {
+    background-color: #1B2A2F;
+}
+
+.card {
+    width: 354px !important;
+    height: 261px;
+    background-color: #8892BF;
+    margin: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.card:hover {
+    box-shadow: 0 17px 26px rgba(0, 0, 0, 0.16), 0 17px 26px rgba(0, 0, 0, 0.23);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.open--nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.801) !important;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hexagon {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: #64C7CC;
+    margin: 10.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 30.60px solid #64C7CC;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 30.60px solid #64C7CC;
+}
+
+.card-img-overlay {
+    position: absolute !important;
+}
+
+.card-img-overlay:hover {
+    background-color: black;
+}
+
+.bg-techno {
+    background-color: #ffffff;
+}
+
+.techno-description span {
+    font-size: 13px;
+}
+
+.text-techno {
+    color: #5c1a1a;
+}
+
+.show [class*="show-"] {
+    opacity: 0;
+    transform: translateY(290px);
+}
+
+.rightLeft [class*="rightLeft-"] {
+    opacity: 0;
+    transform: translateX(-180px);
+}
+
+.rightLeft-visible [class*="rightLeft-"] {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 1s cubic-bezier(.25, .1, .25, 1);
+}
+
+.show-visible [class*="show-"] {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s cubic-bezier(.25, .1, .25, 1);
+}
+
+.show-visible .show-1,
+.rightLeft-visible .rightLeft-1 {
+    transition-delay: .550s;
+}
+
+.show-visible .show-2,
+.rightLeft-visible .rightLeft-2 {
+    transition-delay: .5s;
+}
+
+.show-visible .show-3,
+.rightLeft-visible .rightLeft-3 {
+    transition-delay: .450s;
+}
+
+.show-visible .show-4,
+.rightLeft-visible .rightLeft-4 {
+    transition-delay: .4s;
+}
+
+.show-visible .show-5,
+.rightLeft-visible .rightLeft-5 {
+    transition-delay: .550s;
+}
+
+.show-visible .show-6,
+.rightLeft-visible .rightLeft-6 {
+    transition-delay: .460s;
+}
+
+.show-visible .show-7,
+.rightLeft-visible .rightLeft-7 {
+    transition-delay: .370s;
+}
+
+.show-visible .show-8,
+.rightLeft-visible .rightLeft-8 {
+    transition-delay: .280s;
+}
+
+.show-visible .show-9,
+.rightLeft-visible .rightLeft-9 {
+    transition-delay: .190s;
+}
+
+.show-visible .show-10,
+.rightLeft-visible .rightLeft-10 {
+    transition-delay: .1s;
+}
+
+.login-form {
+    width: 400px;
+    height: 70vh;
+    padding: 30px;
+    background-color: #1B2A2F !important;
+}
+
+.form {
+    height: 400px;
+}
