@@ -22,7 +22,7 @@ class HomeController extends Controller
         $_SESSION["alert"] = [
             "message" => "Votre message est envoyé"
         ];
-        header('Location:/projectfolio');
+        header('Location:/');
 
         
     }
