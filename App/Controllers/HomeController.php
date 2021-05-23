@@ -65,7 +65,7 @@ class HomeController extends Controller
                 "message" => "Votre message n'a pas pu être envoyé"
             ];
         }
-        header('Location:/projectfolio');
+        header('Location:/');
         die();
 
         
