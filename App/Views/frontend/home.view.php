@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 <div class="open--nav fixed-top px-3">
     <img height="80" src="public/images/logo/A.Dare_portfolio.png" alt="">
-    <p class="text-light display-6"><i class="fas fa-bars"></i></p>
+    <p class="text-danger display-6"><i class="fas fa-bars"></i></p>
 </div>
 <!--presentation d'en tete 
         -->
@@ -33,14 +33,13 @@ $(document).ready(function(){
         <!--title-->
         <div class="text-white col-11 col-md-8 col-lg-7 presentation--card_content">
             <div class="presentation--card_content_text">
-                <h1>CONCEPTION <br> DÉVELOPPENT, <br> FAIRE DE VOS RÊVES UNE RÉALITÉ </h1>
+                <h1>Conception <br> développement, <br> FAIRE DE VOS RÊVES UNE RÉALITÉ </h1>
             </div>
             <div class="separator"></div>
             <div class=" presentation--card_content_label">
                 <span>Objectif ?</span>
                 <span>Apporter un plus à votre entreprise.</span>
-                <span>Ma patience, ma curiosité et mon sens d'adaptation seront des atouts qui me permettront d'amener à
-                    bien <br /> mes missions au sein de votre enseigne.</span>
+                <span>Ma patience, ma curiosité, mon sens d'adaptation et du timing, des atouts essentiels <br> pour le bien de votre entreprise et aussi amener à bien tout type de mission que vous allez me confier.</span>
             </div>
         </div>
         <!--end title-->
@@ -71,9 +70,9 @@ $(document).ready(function(){
 </div>
 
 <!--OTHER OF THE PORTFOLIO-->
-<div id="profil" style="min-height:100vh" class=" container-fluid bg-light d-flex align-items-center">
+<div id="profil" style="min-height:100vh" class=" container-fluid bg-light d-flex align-items-center py-5">
     <div class="container mx-auto show">
-        <h3>A propos de Moi</h3>
+        <h3>À propos de Moi</h3>
         <div class="row d-flex align-items-center justify-content-center mt-5">
             <div class="col-lg-5 show-9 mx-auto about-me">
                 <div class="text-center my-5">
@@ -87,122 +86,162 @@ $(document).ready(function(){
                     surtout le basket-ball (joueur en club), me tenir informé des dernières nouveautés et suivre la NBA.
                 </p>
             </div>
-            <div class="col-lg-5 mx-auto">
+            <!--techno-->
+            <div class="col-lg-6 mx-auto mb-5">
                 <div class="col-12">
-
                     <h4>Back - Front</h4>
                     <div class="row techno justify-content-around">
-                        <div
-                            class="col-6 show-1 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-php"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>PHP/POO/PDO/MySQL </span>
-                                    <span>Design pattern MVC </span>
+                        
+                    
+                        <div class="col-sm-6 col-lg-6 show-10 mt-2  p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-php"></i></span>
                                 </div>
-                            </div>
-                        </div>
-                        <div
-                            class="col-6 show-2 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-python"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Cadre des études</span>
-                                    <span>Créer des sockets</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="col-6 show-3 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-cuttlefish"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Cadre des études</span>
-                                    <span>Language C</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            class="col-6 show-4 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-html5"></i></span>
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-css3-alt"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>La base </span>
-                                    <span>liens hypertextes et apparance de vos site</span>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>PHP/POO/PDO/MySQL </span>
+                                        <span>Design pattern MVC </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div
-                            class="col-6 show-5 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-bootstrap"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Bootstrap </span>
-                                    <span>Pour Styliser vos pages web</span>
+                        <div class="col-sm-6 col-lg-6 show-9 mt-2  p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-python"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Cadre de mes études</span>
+                                        <span>Créer des sockets</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="col-6 show-6 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-js-square"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Javascript / jquery </span>
-                                    <span>Pour animer vos pages web</span>
+
+                        <div class="col-sm-6 col-lg-6 show-8 mt-2 p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-cuttlefish"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Language C</span>
+                                        <span>Cadre de mes études</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-6 show-7 mt-2 p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-5 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno mx-3 display-5"><i class="fab fa-html5"></i></span>
+                                    <span class="text-techno mx-3 display-5"><i class="fab fa-css3-alt"></i></span>
+                                </div>
+                                <div class="col-7">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>La base </span>
+                                        <span>Liens hypertextes et apparence de vos sites</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-6 show-6 mt-2 p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno mx-3 display-5"><i class="fab fa-bootstrap"></i></span> 
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Bootstrap </span>
+                                        <span>Pour Styliser vos pages web</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-6 show-5 mt-2 p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-js-square"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Javascript / jquery </span>
+                                        <span>Pour animer vos pages web</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <h4>Outils</h4>
                     <div class="row techno justify-content-around">
-                        <div
-                            class="col-6 show-7 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-git-square"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Outil</span>
-                                    <span>Git</span>
+                        
+                    
+                        <div class="col-sm-6 col-lg-6 show-4  p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-git-square"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Git</span>
+                                        <span>Le travail en équipe</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="col-6 show-8 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fas fa-code"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Mon quotidient</span>
-                                    <span>Vs Code</span>
+
+                        <div class="col-sm-6 col-lg-6 show-3  p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fas fa-code"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Vs Code</span>
+                                        <span>Mon quotidien</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    
                     <h4>Système d'exploitation</h4>
                     <div class="row techno justify-content-around">
-                        <div
-                            class="col-6 show-9 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-windows"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Mon quotidient</span>
-                                    <span>Windows</span>
+                        
+                    
+                        <div class="col-sm-6 col-lg-6 show-3  p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-windows"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Windows</span>
+                                        <span>Mon quotidien</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="col-6 show-10 bg-white border border-light d-flex align-items-center justify-content-around p-3 about-techno">
-                            <span class="text-techno mx-3 display-5"><i class="fab fa-linux"></i></span>
-                            <div class="col d-flex flex-column align-items-center">
-                                <div class="col techno-description d-flex flex-column justify-content-around">
-                                    <span>Dans le cadre de mes études</span>
-                                    <span>Linux</span>
+
+                        <div class="col-sm-6 col-lg-6 show-3  p-1">
+                            <div class="d-flex justify-content-between bg-white py-2 about-techno">
+                                <div class="col-3 d-flex align-items-center text-center justify-content-center">
+                                    <span class="text-techno text-center display-5"><i class="fab fa-linux"></i></span>
+                                </div>
+                                <div class="col-8">
+                                    <div style="height: 70px;" class="col-12 techno-description d-flex flex-column align-items-start justify-content-around">
+                                        <span>Linux</span>
+                                        <span>Dans le cadre de mes études</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -211,31 +250,31 @@ $(document).ready(function(){
 
 <!--portfolio-->
 <!--OTHER OF THE PORTFOLIO-->
-<div id="portfolio" style="min-height:100vh" class="container-fluid portfolio d-flex align-items-center ">
-    <div class="container mx-auto rightLeft">
-        <h3 class="text-white">Mes Projets Personnel</h3>
+<div id="portfolio" style="min-height:100vh" class="container-fluid portfolio d-flex align-items-center py-4">
+    <div class="col-12 col-md-11 mx-auto rightLeft">
+        <h3>Mes Projets Personnels</h3>
         <div class="row d-flex align-items-center justify-content-center mt-5">
             <!--projet-->
-            <div class="card rightLeft-10  bg-dark text-white p-0">
+            <div class="col-sm-6 col-md-4 card rightLeft-10  bg-dark text-white p-0">
                 <img src="public/images/portfolio/barber.png" class="card-img" alt="...">
                 <div class="d-none card-img-overlay d-flex flex-column align-items-center  justify-content-around">
-                    <p class="card-text">Demo d'un site pour coifeur</p>
+                    <p class="card-text">Démo d'un site pour coiffeur</p>
                     <p class="card-text">PHP - JS</p>
                     <a class="btn btn-light" target="_blank" href="http://daresamuel.byethost13.com/">VISITER</a>
                 </div>
             </div>
 
-            <div class="card rightLeft-9 bg-dark text-white p-0">
+            <div class="col-sm-6 col-md-4 card rightLeft-9 bg-dark text-white p-0">
                 <img src="public/images/portfolio/portfolio2.png" class="card-img" alt="...">
                 <div class="d-none card-img-overlay d-flex flex-column align-items-center  justify-content-around">
-                    <p class="card-text">Demo d'un site pour un club de basket</p>
+                    <p class="card-text">Démo d'un site pour un club de basket</p>
                     <p class="card-text">PHP/PDO/MySQL - JS</p>
                     <a class="btn btn-light" target="_blank" href="http://projecbaskettest.byethost3.com/">Voir le site</a>
                     <a class="btn btn-secondary" target="_blank" style="text-decoration: none" href="https://github.com/Sanyaronke/newBBB"><i class="fab fa-git-square"></i>Voir le Git</a> 
                 </div>
             </div>
 
-            <div class="card rightLeft-8 bg-dark text-white p-0">
+            <div class="col-sm-6 col-md-4 card rightLeft-8 bg-dark text-white p-0">
                 <img src="public/images/portfolio/portfolio.png" class="card-img" alt="...">
                 <div class="d-none card-img-overlay d-flex flex-column align-items-center  justify-content-around">
                     <p class="card-text">Vous êtes ici</p>
@@ -246,7 +285,7 @@ $(document).ready(function(){
 </div>
 <!--form-->
 <div style="min-height:100vh" class="container-fluid bg-light d-flex align-items-center ">
-    <div class="col-md-6 mx-auto show">
+    <div class="col-md-10 col-lg-6 mx-auto show">
         <h3 class="text-center text-secondary">Démarrons l'aventure ensemble, n’hésitez pas à me contacter</h3>
         <div class="row d-flex align-items-center justify-content-center mt-5">
 
@@ -265,14 +304,14 @@ $(document).ready(function(){
                         <input type="email" class="form-control px-4 rounded-pill" id="email" name="email"
                             placeholder="Votre email">
                         <label class="px-4" for="floatingInput">Email</label>
-                        <span id="error_email" class="px-4 text-danger">Vous Devez entrer Votre adresse email</span>
+                        <span id="error_email" class="px-4 text-danger">Vous devez entrer votre adresse email</span>
                     </div>
 
                     <div class="form-floating mb-3 col-12 col-md-6 ">
                         <input type="text" class="form-control px-4 rounded-pill" id="phone" name="phone"
                             placeholder="Votre numero de telephone">
                         <label class="px-4" for="floatingInput">Téléphone</label>
-                        <span id="error_phone" class="px-4 text-danger">Numéro de telephone invalide</span>
+                        <span id="error_phone" class="px-4 text-danger">Numéro de téléphone invalide</span>
                     </div>
                 </div>
 

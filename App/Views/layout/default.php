@@ -31,9 +31,9 @@
     <header id="nav--header" class="animate__animated animate__backInLeft">
         <div class="navbar--custom d-flex align-items-center justify-content-end">
             <nav class="nav flex-column">
-                <a class="nav-link" href="#home">Home</a>
-                <a class="nav-link" href="#profil">About</a>
-                <a class="nav-link" href="#portfolio">Project</a>
+                <a class="nav-link" href="#home">Acceuil</a>
+                <a class="nav-link" href="#profil">À Propos</a>
+                <a class="nav-link" href="#portfolio">Mes Réalisation</a>
                 <a class="nav-link" href="#contact">Contact</a>
             </nav>
         </div>
