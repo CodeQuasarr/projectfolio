@@ -321,7 +321,7 @@ $(document).ready(function(){
                     <label for="floatingTextarea2">Taper Votre message ici</label>
                 </div>
                 <div class="form-floating mb-3 col-12 col-md-6 ">
-                    <img width="200" height="100" class="text-center" src="public/images/logo/valid.png"
+                    <img width="200" height="100" class="text-center" src="public/images/logo/captcha.png"
                         alt="...">
                     <label for="floatingTextarea2">Entrez le texte suivant</label>
                     <input type="text" class="form-control my-3 px-2" id="capchat" name="capchat"
