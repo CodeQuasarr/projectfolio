@@ -32,9 +32,13 @@ class HomeController extends Controller
 
             $mail = new PHPMailer(true); // appel de php mailer avec l'exeption a true
             try {
-                //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // info sur le debug           
+                $mail->SMTPDebug = SMTP::DEBUG_SERVER; // info sur le debug           
                 $mail->isSMTP();
-                $mail->Host = "smtp.gmail.com";
+                $mail->SMTPAuth= true;
+                $mail->Host = 'smtp.gmail.com';
+                $mail->Username= 'dsanyaronke@gmail.com';
+                $mail->Password= 'allstars-789';
+                $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = "587";
 
                 // charset
@@ -45,19 +49,23 @@ class HomeController extends Controller
                 $mail->setFrom($email);
 
                 // contenu
-                $mail->Subject ="{$numero}";
-                $mail->Body = "{$msg}";
+                $mail->isHTML(true);
+                $mail->Subject = 'PORTEFOLIO MESSAGE'.$email;
+                $mail->Body = '<h3> NOM : '.$nom. '<br> EMAIL : '.$email.' </h3> <br>'.$msg;
 
                 // envoi du message
+                
                 $mail->send();
 
                 $_SESSION["alert"] = [
-                    "message" => "Merci, votre message a bien été envoyé !"
+                    "message" => "Merci, votre message a bien été envoyé !",
+                    "color" => "success "
                 ];
 
             } catch (Exception) {
                 $_SESSION["alert"] = [
-                    "message" => "Votre message n'a pas pu être envoyé"
+                    "message" => "Votre message n'a pas pu être envoyé",
+                    "color" => "danger "
                 ];
             }
         } else {
@@ -65,7 +73,7 @@ class HomeController extends Controller
                 "message" => "Votre message n'a pas pu être envoyé"
             ];
         }
-        header('Location:/');
+        header('Location:/projectfolio');
         die();
 
         

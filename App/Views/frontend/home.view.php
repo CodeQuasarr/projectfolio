@@ -9,7 +9,7 @@ $(document).ready(function(){
 <div class="modal fade" id="alertMessage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-body text-upercase text-success">
+            <div class="modal-body text-upercase display-6 text-<?=$_SESSION["alert"]['color'] ?>">
                 <?=$_SESSION["alert"]['message'] ?>
             </div>
         </div>
@@ -46,7 +46,7 @@ $(document).ready(function(){
         <!--cv-->
         <div class="d-flex align-items-center justify-content-center col-11 col-md-4">
             <div class="cv mt-3 ">
-                <a class="rounded rounded-circle d-flex align-items-center justify-content-center" href="#">CV</a>
+                <a class="rounded rounded-circle d-flex align-items-center justify-content-center" target="_blank" href="public/cv.pdf">CV</a>
             </div>
         </div>
         <!--end cv-->
@@ -73,6 +73,7 @@ $(document).ready(function(){
 <div id="profil" style="min-height:100vh" class=" container-fluid bg-light d-flex align-items-center py-5">
     <div class="container mx-auto show">
         <h3>À propos de Moi</h3>
+        <button id="testt">tess</button>
         <div class="row d-flex align-items-center justify-content-center mt-5">
             <div class="col-lg-5 show-9 mx-auto about-me">
                 <div class="text-center my-5">
@@ -284,7 +285,8 @@ $(document).ready(function(){
     </div>
 </div>
 <!--form-->
-<div style="min-height:100vh" class="container-fluid bg-light d-flex align-items-center ">
+<button id="clicka"> click the bidule</button>
+<div id="contact" style="min-height:100vh" class="container-fluid bg-light d-flex align-items-center ">
     <div class="col-md-10 col-lg-6 mx-auto show">
         <h3 class="text-center text-secondary">Démarrons l'aventure ensemble, n’hésitez pas à me contacter</h3>
         <div class="row d-flex align-items-center justify-content-center mt-5">
@@ -339,6 +341,18 @@ $(document).ready(function(){
 </div>
 
 
-<?php
 
-        // echo password_hash("motdepasseinncorect", PASSWORD_DEFAULT); ?>
+<script>
+
+$(document).ready(function() {
+    $("#clicka").click(function() {
+        $.ajax({
+            url: "#home",
+            data: "hello",
+            success: function(data){
+                $("#responseArea").text(data);
+            }
+        });
+    })
+})
+</script>
