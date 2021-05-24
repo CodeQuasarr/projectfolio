@@ -73,7 +73,6 @@ $(document).ready(function(){
 <div id="profil" style="min-height:100vh" class=" container-fluid bg-light d-flex align-items-center py-5">
     <div class="container mx-auto show">
         <h3>À propos de Moi</h3>
-        <button id="testt">tess</button>
         <div class="row d-flex align-items-center justify-content-center mt-5">
             <div class="col-lg-5 show-9 mx-auto about-me">
                 <div class="text-center my-5">
@@ -285,7 +284,6 @@ $(document).ready(function(){
     </div>
 </div>
 <!--form-->
-<button id="clicka"> click the bidule</button>
 <div id="contact" style="min-height:100vh" class="container-fluid bg-light d-flex align-items-center ">
     <div class="col-md-10 col-lg-6 mx-auto show">
         <h3 class="text-center text-secondary">Démarrons l'aventure ensemble, n’hésitez pas à me contacter</h3>
@@ -325,17 +323,13 @@ $(document).ready(function(){
                 <div class="form-floating mb-3 col-12 col-md-6 ">
                     <img width="200" height="100" class="text-center" src="public/images/logo/captcha.png"
                         alt="...">
-                    <label for="floatingTextarea2">Entrez le texte suivant</label>
+                    <label for="floatingTextarea2">Entrez le texte suivant.</label>
                     <input type="text" class="form-control my-3 px-2" id="capchat" name="capchat"
                         placeholder="Entrez le texte suivant">
                 </div>
 
                 <button type="submit " class="col-12 py-3 btn btn-secondary rounded-pill">Me Contacter</button>
             </form>
-
-            <div id="instruction">
-
-            </div>
         </div>
     </div>
 </div>
